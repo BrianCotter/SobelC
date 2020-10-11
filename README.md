@@ -9,8 +9,8 @@ $ make
 $ ./sobel
 
 ## Output
-Input synthesized cake image
-![Input Image](images/cake.pgm)
+Input: synthesized cake image (pgm format)
+![Input Image](images/cake.png)
 
-Output of sobel binary edge image 
-![Input Image](images/cakeBinaryEdge.pgm)
+Output: Sobel binary edge image 
+![Input Image](images/cakeBinaryEdge.png)
