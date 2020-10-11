@@ -3,12 +3,14 @@ Sobel edge detection writen in C from scratch.
 
 ## Building
 Clone file to directory:
+
 $ make
+
 $ ./sobel
 
 ## Output
+Input synthesized cake image
+![Input Image](images/cake.pgm)
 
-![Input Image](cake.pgm)
-
-
-![Input Image](cakeBinaryEdge.pgm)
+Output of sobel binary edge image 
+![Input Image](images/cakeBinaryEdge.pgm)
