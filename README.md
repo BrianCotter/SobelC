@@ -10,7 +10,9 @@ $ ./sobel
 
 ## Output
 Input: synthesized cake image (pgm format)
+
 ![Input Image](images/cake.png)
 
 Output: Sobel binary edge image 
+
 ![Input Image](images/cakeBinaryEdge.png)
