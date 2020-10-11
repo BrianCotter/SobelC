@@ -1,9 +1,8 @@
 File: ReadMe.txt
 Author: Brian Cotter
-Course: EECE4840
-Desc: 
+ 
 -------------------------- Purpose --------------------------
-Part 1: Read "mri.pgm" input image and perform Sobel edge detection.
+Part 1: Read "cake.pgm" input image and perform Sobel edge detection.
 Using spatial domain convolution. 
 
 Part 2: Read "cake.pgm" input image and perform Sobel edge detection.
@@ -14,7 +13,7 @@ image with an avergaing filter applied (spatial convolution)
 
 -------------------------- Source Files --------------------
 Main source code file: 
-lab3.c
+sobel.c
 readWrite.c
 convolve.c
 array2d.c
@@ -26,16 +25,16 @@ array2d.h
 
 ------------------------- Instructions ---------------------
 Part 1:
-Note: File named "mri.pgm" must be in the same 
+Note: File named "cake.pgm" must be in the same 
 directory as source code files to read. 
 
 Instructions to compile (all files):
 $ make
 
-This generates the lab1 executable file, run with:
-$./lab3 mri.pgm
+This generates the sobel executable file, run with:
+$./sobel
 
-Passing "mri.pgm" argument tells the program you want to
+Passing "cake.pgm" argument tells the program you want to
 run Part 1.
 
 Output image files are added to the current directory;
@@ -48,30 +47,6 @@ Part 2:
 Note: File named "cake.pgm" must be in the same 
 directory as source code files to read. 
 
-Run with:
-$./lab2 cake.pgm 
-
-Passing "mri.pgm" argument tells the program you want to
-run Part 2. 
-
-Output image files are added to the current directory;
-"noisyBinaryEdge_20.pgm"
-
-By default noise level of 20 is used. this can be changed by chnging the macro
+By default noise level of 20 is used. this can be changed by changing the macro
 #define MAX_NOISE 
-on line _ of file lab3.c
 
-Terminal output:
-$./lab3 mri.pgm 
----- Part 1: Input image = mri.pgm ----
-
-Note: File named "mri.pgm" must be in the same 
-directory as source code files to read. 
-
-
-Terminal Output:
-$./lab3 cake.pgm 
----- Part 2: Input image = cake.pgm ----
-
-Note: File named "mri.pgm" must be in the same 
-directory as source code files to read. 
